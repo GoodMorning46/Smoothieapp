@@ -14,6 +14,8 @@ export default function RootLayout() {
   const colorScheme = useColorScheme();
   const [loaded] = useFonts({
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
+    SuperFunky: require('../assets/fonts/SuperFunky-lgmWw.ttf'),
+    Poppins: require('../assets/fonts/Poppins-Italic.ttf'),
   });
 
   useEffect(() => {

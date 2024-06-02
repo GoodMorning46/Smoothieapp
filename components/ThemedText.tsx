@@ -39,14 +39,16 @@ const styles = StyleSheet.create({
     lineHeight: 24,
   },
   defaultSemiBold: {
-    fontSize: 16,
+    fontSize: 17,
     lineHeight: 24,
     fontWeight: '600',
+    fontFamily: 'Poppins',
   },
   title: {
-    fontSize: 32,
+    fontSize: 25,
     fontWeight: 'bold',
     lineHeight: 32,
+    fontFamily: 'SuperFunky',
   },
   subtitle: {
     fontSize: 20,
